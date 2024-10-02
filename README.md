@@ -20,7 +20,14 @@ Para que um projeto seja executável por esse script, ele precisa conter um arqu
 
 ### TugWar 2016
 
-- **Autores:** Lucas Cardoso Fontenla, Frederico Vilela Curti e Guilherme Schoueri Moraes
+- **Autores:** [Lucas Cardoso Fontenla](https://github.com/lucasfontenla), [Frederico Vilela Curti](https://github.com/fredericocurti) e [Guilherme Schoueri Moraes](https://github.com/guigs10mil)
 - **Semestre:** 1o semestre de 2016
 - **Curso:** Engenharias
 - **Repositório:** https://github.com/lucasfontenla/Projeto_Final_CaboDeGuerra
+
+### Code-Scape
+
+- **Autores:** [Alan Matheus Alves Barbosa](https://github.com/alanmath) e [Matheus Aguiar De Jesus](https://github.com/C0D8)
+- **Semestre:** 1o semestre de 2022
+- **Curso:** Ciência da computação
+- **Repositório:** https://github.com/C0D8/Code-Scape
