@@ -1,0 +1,176 @@
+body{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(0, 153, 255);
+}
+
+.header{
+    margin: 1rem 1rem ;
+    padding: 1rem 1rem;
+    color: black;
+}
+
+.body{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video{
+    margin: 1rem 0rem 0rem;
+    padding: 1rem 0rem 0rem;
+}
+.titulo{
+    margin: 2rem 0rem 0rem;
+    padding: 2rem 0rem 0rem;
+    font-size: 250%;
+}
+
+video{
+    width: 800px;
+    height: 500px;
+}
+h2{
+    font-size: 180%;
+    margin:  0rem 0rem 1rem;
+    padding: 0rem 0rem 1rem;
+    color: rgb(0, 153, 255) ;
+}
+.prints-jogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.print{
+    margin: 0rem 0.5rem;
+    padding: 0rem 0.5rem;
+    width: 250px;
+    height: 200px;
+}
+.descricao{
+    margin: 1rem 0rem 0rem;
+    padding: 1rem 0rem 0rem;
+}
+p{
+    font-size: 130%;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(0, 153, 255);
+    margin: 8rem 0rem 0rem;
+    padding: 1rem 2.5rem;
+}
+footer{
+    background-color: rgb(0, 153, 255);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8rem;
+    
+}
+
+.contatos{
+    padding: 1rem 3rem;
+    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.icone{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.footer{
+    padding: 0rem 0rem 0.4rem;
+    margin: 0rem 0rem 0.4rem;
+}
+
+.second{
+    margin: 0rem 0rem 0rem 1.2rem;
+}
+
+.solução{
+    padding: 0rem 0rem 2.5rem;
+    margin: 0rem 0rem 2.5rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.p1{
+    font-size: 130%;
+    margin-bottom: 1rem;
+}
+.p2{
+    font-size: 130%;
+    margin-bottom: 1rem;
+}
+.Movimento{
+    font-size: 130%;
+    margin-bottom: 1rem;
+}
+.batalha{
+    font-size: 130%;
+    margin-bottom: 1rem;
+}
+.outros{
+    font-size: 130%;
+    margin-bottom: 1rem;
+}
+.h2b1{
+    font-size: 180%;
+    margin-bottom: 1rem;
+    color: rgb(0, 153, 255);
+}
+.terminal{
+    font-size: 130%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pip{
+    font-size: 130%;
+    margin-bottom: 1rem;
+    color: rgb(0, 153, 255) ;
+}
+.vini{
+    font-size: 130%;
+    margin-top: 1rem;
+}
+.commits{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Windows{
+    margin-bottom: 1rem;
+}
+.heurísticas{
+    margin-top: 2rem;
+    font-size: 180%;
+}
+/* a{
+    margin-top: 1rem;
+} */
+.link{
+    margin-top: 1rem;
+}

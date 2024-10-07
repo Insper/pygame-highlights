@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>PyGame</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="postifolio.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        
+        <a href="#desc"> <h2 class = "header"> Descrição</h2> </a>
+        <a href="#ex"> <h2 class = "header"> Executar</h2> </a>
+        <a href="#des"> <h2 class = "header"> Desenvolvedores</h2> </a>
+        <a href="#hu"> <h2 class = "header"> heurísticas</h2> </a>
+        <a href="#log"> <h2 class = "header"> Log</h2> </a>
+        <a href="#ct"> <h2 class = "header"> Contato</h2> </a>
+
+    </header>
+
+    <section class="body">
+
+        <h1 class="titulo"> <span style="color: rgb(0, 153, 255);">Pokemon </span> Gym</h1>
+        <div class="video">
+
+            <video controls>
+                <source src="img/video.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+        <section id = "desc" class="bloco">
+            <h2>Descrição</h2>
+
+            <div class="prints-jogo">
+                <img class="print" src="img/centro_pokemon.jpeg" alt="imagem do jogo">
+                <img class="print" src="img/battle.jpeg" alt="imagem do jogo">
+                <img class="print" src="img/gym.jpeg" alt="imagem do jogo">
+            </div>
+            <p class="descricao">
+                O jogo, inspirado em Pokémon, permite que um personagem, munido de
+                um deck de Pokémon, explore uma ilha, um Centro Pokémon e um Ginásio.
+                O estilo de batalha em turnos é o centro da experiência, onde os treinadores
+                lideram seus Pokémon em ataques alternados por turno. Cada Pokémon possui uma
+                variedade de movimentos, e os jogadores escolhem estrategicamente um para cada turno.
+                Além disso, os tipos de Pokémon desempenham um papel crucial na eficácia dos ataques,
+                adicionando uma camada extra de estratégia ao jogo. Reúna seus conhecimentos sobre Pokémon
+                e embarque nessa jornada emocionante!
+            </p>    
+        </section>
+
+        <section id = "ex" class="bloco">
+            <h2>Como Jogar</h2>
+
+            <p class="p1">
+                Para jogar, é necessário ter o Python 3 instalado na máquina.
+                Além disso, se você estiver no Windows, consulte o guia abaixo
+                para mais informações.
+            </p> 
+            <p class="p2"> Após instalar o python, abra um terminal e execute o comando <span style="color: rgb(0, 153, 255);">'pip install pygame'</span>
+                           para baixar a biblioteca necessária, após execute o comando <span style="color: rgb(0, 153, 255);">'cd caminho': </span> no terminal
+                           , substituindo a palavra <span style="color: rgb(0, 153, 255);">'caminho'</span> pelo path da pasta onde está localizado o arquivo do
+                           jogo, por fim escreva <span style="color: rgb(0, 153, 255);">'python arquivo'</span> substituindo <span style="color: rgb(0, 153, 255);">'arquivo'</span> pelo nome do arquivo do jogo
+                           sendo o arquivo <span style="color: rgb(0, 153, 255);">'jogo.py</span>, para poder jogar o jogo. O jogo é jogado com as seguintes teclas:
+            </p>
+            <p class="Movimento"> <span style="color: rgb(0, 153, 255);">Movimento: </span> w/a/s/d. </p>
+            <p class="batalha"> <span style="color: rgb(0, 153, 255);">Ações em batalha: </span> teclas da seta / esc /  enter. </p>
+            <p class="outros"> <span style="color: rgb(0, 153, 255);">Outros: </span> algumas interações são feitas com o mouse bottom 1. </p>
+            <h2 class="h2b1">Jogando no Windows</h2>
+            <p class="Windows">
+                No Windows é necessário instalar algumas dependências adicionais.
+                O módulo utilizado por este projeto pode não funcionar corretamente
+                com o prompt de comando padrão do Windows. Por esse motivo, comece
+                instalando o <span style="color: rgb(0, 153, 255);">Windows terminal</span>.
+            </p>
+
+            <a  class = "link" href="https://www.python.org/">
+                <p class="python"> Clique aqui para baixar o Python </p>
+            </a>
+            <a class = "link" href="./projeto-pygame-turquesa.zip">
+                <p class="python"> Clique aqui para baixar os arquivos do jogo </p>
+            </a>
+            
+        </section>
+
+        <section id = "des" class="bloco">
+            <h2>Desenvolvedores</h2>
+
+            <div class="prints-jogo">
+                <img class="print" src="img/imagem-17.jpeg" alt="imagem do jogo">
+                <img class="print" src="img/vinao.jpeg" alt="imagem do jogo">
+            </div>
+
+            <p class="descricao">
+                Olá! sou o <span style="color: rgb(0, 153, 255);">Felipe M Ferreira</span>, um apaixonado por programação
+                e estudante universitário em busca de criar soluções 
+                <span style="color: rgb(0, 153, 255);">inovadoras<span style="color: aliceblue;">e</span>eficientes</span> para os desafios tecnológicos de
+                hoje. Atualmente, estou cursando Ciência da computação no
+                Instituto de Ensino e Pesquisa <span style="color: rgb(0, 153, 255);">Insper</span>.
+            </p>
+            <p class="vini">
+                Oi, sou o <span style="color: rgb(0, 153, 255);">Vinícius L Silva</span>. Entrei no <span style="color: rgb(0, 153, 255);">Insper</span> no início de 2023, fiz 6 meses de Insper One um cursinho dentro
+                da faculdade e lá tive minha primeira interação com python, desde então estudei
+                mais dessa linguagem e <span style="color: rgb(0, 153, 255);">desenvolvi projetos</span> para melhorar meu conhecimento
+            </p> 
+        </section>
+        <section id ="log" class="bloco">
+            <h2>Log Desenvolvimento</h2>
+
+            <p class="dias">Commits on Oct <span style="color: rgb(0, 153, 255);">24</span>, 2023:</p>
+            <p class="commits">Sistema de múltiplas telas adicionado, paredes desenhadas, colisão com treinadores e protótipo da batalha.</p>
+            <p class="dias">Commits on Oct <span style="color: rgb(0, 153, 255);">25</span>, 2023:</p> 
+            <p class="commits">Sprites adicionadas, tela centro Pokemon, tela gym e tela ilha desenhadas, botões interativos e lógica de troca para outras telas implementada.</p>
+            <p class="dias">Commits on Oct <span style="color: rgb(0, 153, 255);">26</span>, 2023:</p> 
+            <p class="commits">Tela de inicio, tela de instrução, paredes do centro pokemon, interação com portas da ilha e colisão com paredes do centro pokemon adicionada.</p>
+            <p class="dias">Commits on Oct <span style="color: rgb(0, 153, 255);">30</span>, 2023:</p>
+            <p class="commits">Sistema de batalha, sistema de troca de pokemons, sistema de cura, sistema de derrota, sistema de vitória, sistema de dano, sistema de status, sistema de dano por tipo e sistema de dano por fraqueza implementados.</p>
+            <p class="dias">Commits on Nov <span style="color: rgb(0, 153, 255);">1</span>, 2023:</p>
+            <p class="commits">Balanceamento no dano de personagens, protótipo das primeiras aniações, correção em bugs dentro das batalhas, e sistema de alteração de novas telas.</p>
+            <p class="dias">Commits on Nov <span style="color: rgb(0, 153, 255);">2</span>, 2023:</p>
+            <p class="commits">Animação dos ataques: earthquake, razon leaf, tackle, thunderbolt, slug adicionadas, bug de teleporte resolvido, feedback no clique de alguns botões adicionado.</p>
+            <p class="dias">Commits on Nov <span style="color: rgb(0, 153, 255);">5</span>, 2023:</p>
+            <p class="commits">Tela de instruçao indicando como jogar adicionada, sistema de troca de telas atualizado, Animações dos ataques slam / facade adicionadas.</p>
+            <p class="dias">Commits on Nov <span style="color: rgb(0, 153, 255);">6</span>, 2023:</p>
+            <p class="commits">Correção do bug na tela hp, ataques fury cutter e metal claw adicionados e feedback nos botões de cura no centro pokemon adicionado.</p>
+            <p class="dias">Commits on Nov <span style="color: rgb(0, 153, 255);">7</span>, 2023:</p>
+            <p class="commits">Animação dos inimigos adicionada, personagens balanceados, tela de gameover implementada e correção de bugs na batalha.</p>
+        </section>
+
+        <section id = "hu" class="bloco">
+            <h2>heurísticas</h2>
+
+            <div class="prints-jogo">
+                <img class="print" src="img/heuristica_1.jpeg" alt="heurísticas">
+                <img class="print" src="img/heuristica_2.jpeg" alt="heurísticas">
+                <img class="print" src="img/heuristica_3.jpeg" alt="heurísticas">
+            </div>
+            <p class="heurísticas">heurística<span style="color: rgb(0, 153, 255);"> 1</span>:</p>
+            <p class="commits">Identificar palavras importantes, por exemplo comandos necessários para o download do jogo, ou locais para chamar a atenção do usuário.</p>
+            <p class="heurísticas">heurística<span style="color: rgb(0, 153, 255);"> 2</span>:</p>
+            <p class="commits">Aumentar o espaçamento entre palavras, frases e boxs Para ajudar na leitura dinâmica do usuário evitando que o leitor se perca ou se canse.</p>
+            <p class="heurísticas">heurística<span style="color: rgb(0, 153, 255);"> 3</span>:</p>
+            <p class="commits">Padronizar o tamanho e cor dos ícones proporcionando uma experiência de usuário consistente e intuitiva, facilitando a navegação e a compreensão da interface.</p>
+        </section>
+
+    </section>
+    <footer>
+        <div id = "ct" class="contatos">
+            <h3 class="footer"> Contatos de Felipe </h3>
+            <div class="links">
+                <a href="https://api.whatsapp.com/send?phone=5561998680385&text=Ol%C3%A1,%20acessei%20seu%20Link%20Personalizado%20What%27s%20Link">
+                    <img class="icone"  src="img/whats.png">
+                </a>
+
+                <a class="second" href="https://www.instagram.com/_felipemariano_/">
+                    <img class="icone"  src="img/Instagram.png">
+                </a>
+
+                <a class="second" href="https://www.linkedin.com/in/felipe-mariano-ferreira-3424a629a/">
+                    <img class="icone"  src="img/Linkedin.png" type="Linkedin">
+                </a>
+
+                <a class="second" href="https://github.com/felipemarianoferr">
+                    <img class="icone"  src="img/github.png">
+                </a>
+            </div>
+        </div>
+
+        <div id = "ct" class="contatos">
+            <h3 class="footer"> Contatos de Vini </h3>
+            <div class="links">
+                <a href="https://wa.me/qr/RXPQTYJYWGFAG1">
+                    <img class="icone"  src="img/whats.png">
+                </a>
+
+                <a class="second" href="https://instagram.com/vini0_0leal?igshid=dDAwZGw5cTdtbGk2">
+                    <img class="icone"  src="img/Instagram.png">
+                </a>
+
+                <a class="second" href="https://www.linkedin.com/in/vin%C3%ADcius-leal-bb79b6261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img class="icone"  src="img/Linkedin.png" type="Linkedin">
+                </a>
+
+                <a class="second" href="https://github.com/vin1ciusL">
+                    <img class="icone"  src="img/github.png">
+                </a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
