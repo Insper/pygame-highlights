@@ -1,0 +1,180 @@
+body{
+    background-color: #253453;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+
+header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 1rem 0rem 0rem;
+    margin: 1rem 0rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 300%;
+}
+
+h2{
+    color: white;
+    font-size: 225%;
+    padding: 3rem 0rem 0.7rem;
+    margin: 3rem 0rem 0.7rem;
+}
+
+h3{
+    font-size: 185%;
+    color: rgb(255, 205, 6);
+    padding: 0rem 0rem 0.2rem;
+    margin: 0rem 0rem 0.2rem;
+}
+
+h4{
+    color: #000a1d;
+    padding: 3rem 0rem 0rem;
+    margin: 3rem 0rem 0rem;
+}
+
+p{
+    font-size: 150%;
+    color: white;
+    text-align: center;
+}
+
+.body{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video{
+    padding: 0rem 0rem 0.3rem;
+    margin: 0rem 0rem 0.3rem;
+}
+
+video{
+    width: 800px;
+    height: 500px;
+}
+
+.colaboradores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.colaborador{
+    padding: 0rem 2rem;
+    margin: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pessoa{
+    border-radius: 50%;
+    width: 275px;
+    height: 300px;
+}
+
+.pessoa-text{
+    color: white;
+}
+
+.prints{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.print{
+    padding: 0rem 0.5rem;
+    margin: 0rem 0.5rem;
+    width: 300px;
+    height: 225px;
+}
+
+.descrição{
+    padding: 0.2rem 0rem 0rem;
+    margin: 0.2rem 0rem 0rem;
+}
+
+.python{
+    padding: 0.3rem 0rem;
+    margin: 0.3rem 0rem;
+    color: rgb(0, 191, 255);
+}
+
+.execucão_final{
+    padding: 0.2rem 0rem;
+    margin: 0.2rem 0rem;
+}
+
+.download{
+    color: red;
+}
+
+.resumo{
+    padding: 0.5rem 0rem 0rem;
+    margin: 0.5rem 0rem 0rem;
+}
+
+.soluções{
+    padding: 0.5rem 0rem 0rem;
+    margin: 0.5rem 0rem 0rem;
+}
+
+footer{
+    background-color: rgb(17, 12, 12);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contatos{
+    padding: 1rem 3rem;
+    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.footer{
+    color: white;
+    padding: 0rem 0rem 0.4rem;
+    margin: 0rem 0rem 0.4rem;
+}
+
+.second{
+    margin: 0rem 0rem 0rem 1.2rem;
+}
+
+.solução{
+    padding: 0rem 0rem 3rem;
+    margin: 0rem 0rem 3rem;
+}
+
+.instrução{
+    padding: 0.5rem 0rem 0rem;
+    margin: 0.5rem 0rem 0rem;
+}
